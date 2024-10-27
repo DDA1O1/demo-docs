@@ -16,8 +16,10 @@ export default defineConfig({
 				twitter: 'https://twitter.com/withastro',
 			},
 			editLink: {
-				baseUrl: 'https://github.com/DDA1O1/docs/tree/main',
+				baseUrl: 'https://github.com/DDA101/docs/',
 			  },
+
+			// Configure the sidebar.
 			sidebar: [
 				{
 					label: 'Guides',
