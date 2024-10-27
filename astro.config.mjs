@@ -16,7 +16,7 @@ export default defineConfig({
 				twitter: 'https://twitter.com/withastro',
 			},
 			editLink: {
-				baseUrl: 'https://github.com/withastro/starlight/edit/main/docs/',
+				baseUrl: 'https://github.com/DDA1O1/docs/tree/main',
 			  },
 			sidebar: [
 				{
