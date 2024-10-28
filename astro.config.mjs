@@ -35,12 +35,43 @@ export default defineConfig({
                   ],
               },
               {
+                label: 'Stars',
+                items: [
+                  // A link with a "Supergiant" badge.
+                  {
+                    slug: 'stars/persei',
+                    badge: 'Supergiant',
+                  },
+                  // A link with a yellow "Stub" badge.
+                   {
+                        slug: 'stars/sirius',
+                        badge: { text: 'Stub', variant: 'caution' },
+                 },
+                ],
+              },
+              {
+                label: 'Moons',
+                badge: 'Outdated',
+                autogenerate: { directory: 'moons' },
+              },
+              {
                   label: 'Reference',
                   autogenerate: { directory: 'reference' },
               },
               {
                   label: 'code blocks',
                   autogenerate: { directory: 'code blocks' },
+              },
+              {
+                label: 'Resources',
+                items: [
+                  // An external link to the NASA website opening in a new tab.
+                  {
+                    label: 'NASA',
+                    link: 'https://www.nasa.gov/',
+                    attrs: { target: '_blank', style: 'font-style: italic' },
+                  },
+                ],
               },
           ],
       }),
