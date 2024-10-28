@@ -7,4 +7,4 @@ You can highlight `inline code` with backticks.
 
 You can [link to another page](/getting-started/).
 
-![A rocketship in space](../assets/houston.webp)
+![A rocketship in space](/src/assets/9.png)
