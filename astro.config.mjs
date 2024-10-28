@@ -13,6 +13,10 @@ export default defineConfig({
               src: './src/assets/9.png',
               // replacesTitle: true,
           },
+          customCss:
+          [
+             './src/styles/custom.css',
+        ],
           social: {
               github: 'https://github.com/DDA1O1',
               twitter: 'https://twitter.com/withastro',
