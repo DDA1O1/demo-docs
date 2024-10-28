@@ -3,8 +3,6 @@ title: My Page Title
 description: A brief description of the page content.
 ---
 
-# My Page Content
-
 :::note
 Starlight is a documentation website toolkit built with [Astro](https://astro.build/). You can get started with this command:
 
