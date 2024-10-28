@@ -38,6 +38,10 @@ export default defineConfig({
                   label: 'Reference',
                   autogenerate: { directory: 'reference' },
               },
+              {
+                  label: 'code blocks',
+                  autogenerate: { directory: 'code blocks' },
+              },
           ],
       }),
 	],
