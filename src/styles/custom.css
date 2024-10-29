@@ -2,3 +2,8 @@
     --sl-content-width: 50rem;
     --sl-text-5xl: 3.5rem;
   }
+  img {
+    max-width: 100%;
+    border-radius: 8px; /* For rounded corners, if desired */
+  }
+  

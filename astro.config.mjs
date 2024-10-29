@@ -36,6 +36,7 @@ export default defineConfig({
               },
               {
                 label: 'Stars',
+                
                 items: [
                   // A link with a "Supergiant" badge.
                   {
@@ -46,6 +47,10 @@ export default defineConfig({
                    {
                         slug: 'stars/sirius',
                         badge: { text: 'Stub', variant: 'caution' },
+                   },
+                   {
+                    slug: 'stars/anime',
+                    badge: { text: 'Stub', variant: 'caution' },
                  },
                 ],
               },
@@ -54,6 +59,7 @@ export default defineConfig({
                 badge: 'Outdated',
                 autogenerate: { directory: 'moons' },
               },
+              
               {
                   label: 'Reference',
                   autogenerate: { directory: 'reference' },
