@@ -5,4 +5,6 @@ description: anime page
 
 
 
-![Description of the GIF](/animation/1.gif)
+![Custom GIF](/animation/1.gif)
+
+<img src="/public/animation/1.gif" alt="Custom GIF" style="width:300px; border-radius:10px;">
