@@ -77,11 +77,14 @@ export default defineConfig({
         },
       ],
     }),
-    speedInsights(),
+    speedInsights( {
+      analytics: {
+        enabled: true,
+        // Optional: Set the Vercel Analytics project ID
+    }),
   ],
   output: 'server',
   adapter: vercel({
-    webAnalytics: { enabled: true },
-    speedInsights: { enabled: true },  // Enable Speed Insights explicitly
+    webAnalytics: { enabled: true },  // Enable Speed Insights explicitly
   }),
 });
