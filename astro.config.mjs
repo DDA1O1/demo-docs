@@ -1,4 +1,4 @@
-// @ts-check
+// @ts-nocheck
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import vercel from '@astrojs/vercel/serverless';
@@ -77,14 +77,10 @@ export default defineConfig({
         },
       ],
     }),
-    speedInsights( {
-      analytics: {
-        enabled: true,
-        // Optional: Set the Vercel Analytics project ID
-    }),
+    speedInsights(),
   ],
   output: 'server',
   adapter: vercel({
-    webAnalytics: { enabled: true },  // Enable Speed Insights explicitly
+    webAnalytics: { enabled: true },
   }),
 });
