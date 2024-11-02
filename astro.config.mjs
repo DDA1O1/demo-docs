@@ -61,8 +61,8 @@ export default defineConfig({
               },
               
               {
-                  label: 'Reference',
-                  autogenerate: { directory: 'reference' },
+                  label: 'pages',
+                  autogenerate: { directory: 'pages' },
               },
               {
                   label: 'code blocks',
