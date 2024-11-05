@@ -9,8 +9,7 @@ export default defineConfig({
     starlight({
       title: 'My Docs',
       logo: {
-        src: './src/assets/9.png',
-        // replacesTitle: true,
+        src: './src/assets/fg.jpeg',
       },
       customCss: [
         './src/styles/custom.css',
@@ -20,26 +19,22 @@ export default defineConfig({
         twitter: 'https://twitter.com/withastro',
       },
       editLink: {
-        baseUrl: 'https://github.com/DDA101/docs/',
+        baseUrl: 'https://github.com/DDA1O1/docs/tree/main/',
       },
-      // Configure the sidebar.
       sidebar: [
         {
           label: 'Guides',
           items: [
-            // Each item here is one entry in the navigation menu.
             { label: 'Example Guide', slug: 'guides/example' },
           ],
         },
         {
           label: 'Stars',
           items: [
-            // A link with a "Supergiant" badge.
             {
               slug: 'stars/persei',
               badge: 'Supergiant',
             },
-            // A link with a yellow "Stub" badge.
             {
               slug: 'stars/sirius',
               badge: { text: 'Stub', variant: 'caution' },
@@ -66,7 +61,6 @@ export default defineConfig({
         {
           label: 'Resources',
           items: [
-            // An external link to the NASA website opening in a new tab.
             {
               label: 'NASA',
               link: 'https://www.nasa.gov/',
@@ -80,6 +74,6 @@ export default defineConfig({
   output: 'server',
   adapter: vercel({
     webAnalytics: { enabled: true },
-    speedInsights: { enabled: true }
+    speedInsights: { enabled: true },
   }),
 });

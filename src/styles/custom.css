@@ -15,3 +15,9 @@ img {
   border-radius: 10px;
   /* Additional styles */
 }
+
+.icon {
+  background-image: url('data:image/png;base64,...');
+  width: 24px;
+  height: 24px;
+}
