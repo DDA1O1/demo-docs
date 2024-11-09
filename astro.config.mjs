@@ -7,8 +7,7 @@ import vercel from '@astrojs/vercel/serverless';
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'My Docs',
-      
+      title: 'My Docs',    
       customCss: [
         './src/styles/custom.css',
       ],
