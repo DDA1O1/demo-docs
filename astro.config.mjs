@@ -8,9 +8,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'My Docs',
-      logo: {
-        src: './src/assets/fg.jpeg',
-      },
+      
       customCss: [
         './src/styles/custom.css',
       ],
