@@ -2,10 +2,12 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import vercel from '@astrojs/vercel/serverless';
+import react from '@astrojs/react';
 
 // https://astro.build/config
 export default defineConfig({
   integrations: [
+    react(),
     starlight({
       title: 'My Docs',    
       customCss: [
@@ -21,9 +23,17 @@ export default defineConfig({
       sidebar: [
         {
           label: 'Guides',
+          // autogenerate: { directory: 'guides' },
           items: [
+            
+            { label: 'Writing Docs', slug: 'guides/ab' },
             { label: 'Example Guide', slug: 'guides/example' },
+
           ],
+        },
+        {
+          label: 'animation',
+          autogenerate: { directory: 'animation' },
         },
         {
           label: 'Stars',
